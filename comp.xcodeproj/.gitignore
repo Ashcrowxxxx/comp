@@ -8,6 +8,7 @@
 *.perspectivev3
 *.xcuserstate
 project.xcworkspace/
+project.pbxproj
 xcuserdata/
 
 # Generated files

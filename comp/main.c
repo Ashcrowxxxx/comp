@@ -7,8 +7,13 @@
 
 #include <stdio.h>
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    printf("Hello, World!\n");
+int main(void) {
+    int num;
+    
+    for (int num = 1; num <= 100; num++) {
+        if(num % 2 == 1){
+            printf("%d ", num);
+        }
+    }
     return 0;
 }
